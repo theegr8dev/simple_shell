@@ -76,6 +76,7 @@ struct stat buf;
 if (check_for_dir(vars->av[0]))
 {
 r = execute_cwd(vars);
+}
 else
 {
 path = find_path(vars->env);
